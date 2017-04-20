@@ -34,7 +34,8 @@ import os
 import glob
 
 TLE_URLS = ('http://celestrak.com/NORAD/elements/weather.txt',
-            'http://celestrak.com/NORAD/elements/resource.txt')
+            'http://celestrak.com/NORAD/elements/resource.txt',
+           'http://celestrak.com/NORAD/elements/cubesat.txt)
 
 LOGGER = logging.getLogger(__name__)
 
